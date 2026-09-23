@@ -407,7 +407,7 @@ def run_rnarobo(
             progress_callback(f"Running: {' '.join(cmd)}")
 
         proc = subprocess.run(
-            cmd, capture_output=True, text=True, timeout=600,
+            cmd, capture_output=True, text=True, timeout=3600,
         )
 
         if progress_callback:
