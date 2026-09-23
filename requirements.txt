@@ -3,7 +3,7 @@ openpyxl>=3.1.0
 numpy>=1.20.0
 customtkinter>=5.2.0
 biopython>=1.80
-
+Pillow>=9.0.0
 # Build (only needed for packaging)
 setuptools>=68.0
 pyinstaller>=6.0
